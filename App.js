@@ -120,7 +120,7 @@ const App = () => {
       const res = await fetch('https://copilot-service-v1.azurewebsites.net/get-service-response', {
         method: 'POST',
         headers: {
-          'Ocp-Apim-Subscription-Key': 'ce272616f5fe4e7fa4be13081e2be769',
+          'Ocp-Apim-Subscription-Key': 'xyz',
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
